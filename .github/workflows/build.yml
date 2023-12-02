@@ -10,11 +10,11 @@ jobs:
     name: SonarCloud
     runs-on: ubuntu-latest
     steps:
-      - uses: sonarsource/sonarcloud-github-action@master
+      - uses: actions/checkout@v3
         with:
           projectBaseDir: my-custom-directoryalysis
       - name: Analyze with SonarCloud
-        uses: sonarsource/sonarcloud-github-action@master
+        uses: actions/checkout@v3
         with:
           projectBaseDir: my-custom-directory
           args: >
