@@ -19,4 +19,4 @@ jobs:
               -Dsonar.organization=chard190523
               -Dsonar.projectKey=JAVA_CODE
               -Dsonar.java.coverage.reportPaths=coverage.xml 
-              -Dsonar.java.jdkHome=C:\Program Files\Java\jdk-20
+              
