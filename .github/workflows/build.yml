@@ -18,9 +18,9 @@ jobs:
         with:
           projectBaseDir: my-custom-directory
           args: >
-            -Dsonar.organization=my-organization
-            -Dsonar.projectKey=my-projectkey
-            -Dsonar.python.coverage.reportPaths=coverage.xml
+            -Dsonar.organization=charD190523
+            -Dsonar.projectKey=chard190523
+            -Dsonar.java.coverage.reportPaths=coverage.xml
             -Dsonar.sources=lib/
             -Dsonar.test.exclusions=tests/**
             -Dsonar.tests=tests/
